@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men Clean | Moda Masculina Premium</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo-icon">MC</div>
+            <h1>Men Clean</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#camisas">Camisas</a></li>
+            <li><a href="#calcas">Calças</a></li>
+            <li><a href="#casacos">Casacos</a></li>
+            <li><a href="#ternos">Ternos</a></li>
+            <li><a href="#sapatos">Sapatos</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        
+        <section id="camisas" class="category-section">
+            <h2>Camisas</h2>
+            
+            <h3 class="subcategory-title">Gola Careca / Casual</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500&auto=format&fit=crop&q=60" alt="Camiseta Pima Preta">
+                    <h3>Camiseta Algodão Pima</h3>
+                    <p class="description">Gola careca, caimento perfeito e toque ultra macio.</p>
+                    <p class="price">R$ 119,90</p>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho('Camiseta Algodão Pima')">Comprar</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&auto=format&fit=crop&q=60" alt="Camiseta Estonada Verde">
+                    <h3>Camiseta Estonada Verde</h3>
+                    <p class="description">Visual casual com lavagem especial estilo vintage.</p>
+                    <p class="price">R$ 99,90</p>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho('Camiseta Estonada Verde')">Comprar</button>
+                </div>
+            </div>
+
+            <h3 class="subcategory-title">Polos e Sociais</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=500&auto=format&fit=crop&q=60" alt="Camisa Polo Piquet">
+                    <h3>Polo Piquet Premium</h3>
+                    <p class="description">Algodão piquet texturizado com gola estruturada.</p>
+                    <p class="price">R$ 149,90</p>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho('Polo Piquet Premium')">Comprar</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500&auto=format&fit=crop&q=60" alt="Camisa Social Premium">
+                    <h3>Camisa Social Slim Line</h3>
+                    <p class="description">Algodão egípcio com elastano para máximo conforto.</p>
+                    <p class="price">R$ 219,90</p>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho('Camisa Social Slim Line')">Comprar</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="calcas" class="category-section">
+            <h2>Calças</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&auto=format&fit=crop&q=60" alt="Calça Jeans Slim">
+                    <h3>Calça Jeans Dark Slim</h3>
+                    <p class="description">Lavagem escura, versátil para o dia ou para a noite.</p>
+                    <p class="price">R$ 189,90</p>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho('Calça Jeans Dark Slim')">Comprar</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&auto=format&fit=crop&q=60" alt="Calça Chino Khaki">
+                    <h3>Calça Chino Khaki</h3>
+                    <p class="description">Sarja leve com corte alfaiataria casual.</p>
+                    <p class="price">R$ 179,90</p>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho('Calça Chino Khaki')">Comprar</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1479064555552-3ef4979f8908?w=500&auto=format&fit=crop&q=60" alt="Calça de Linho">
+                    <h3>Calça Balneário Linho</h3>
+                    <p class="description">Corte reto, cordão ajustável e frescor imbatível.</p>
+                    <p class="price">R$ 229,90</p>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho('Calça Balneário Linho')">Comprar</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="casacos" class="category-section">
+            <h2>Casacos</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&auto=format&fit=crop&q=60" alt="Jaqueta de Couro">
+                    <h3>Jaqueta Couro Café</h3>
+                    <p class="description">Acabamento fosco nobre em tom marrom profundo.</p>
+                    <p class="price">R$ 399,90</p>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho('Jaqueta Couro Café')">Comprar</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?w=500&auto=format&fit=crop&q=60" alt="Blazer Casual">
+                    <h3>Blazer Slim Tweed</h3>
+                    <p class="description">Textura clássica com modelagem jovem e ajustada.</p>
+                    <p class="price">R$ 349,90</p>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho('Blazer Slim Tweed')">Comprar</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="ternos" class="category-section">
+            <h2>Ternos</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500&auto=format&fit=crop&q=60" alt="Terno Azul Marinho">
+                    <h3>Terno Slim Azul Marinho</h3>
+                    <p class="description">Paletó e calça em lã fria, caimento perfeito para eventos.</p>
+                    <p class="price">R$ 799,90</p>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho('Terno Slim Azul Marinho')">Comprar</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=500&auto=format&fit=crop&q=60" alt="Costume Grafite">
+                    <h3>Costume Grafite Oxford</h3>
+                    <p class="description">Moderno, elegante e ideal para o ambiente corporativo.</p>
+                    <p class="price">R$ 749,90</p>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho('Costume Grafite Oxford')">Comprar</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="sapatos" class="category-section">
+            <h2>Sapatos</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=500&auto=format&fit=crop&q=60" alt="Sapato Oxford">
+                    <h3>Sapato Oxford Brogue</h3>
+                    <p class="description">Detalhes perfurados feitos a mão em couro legítimo.</p>
+                    <p class="price">R$ 299,90</p>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho('Sapato Oxford Brogue')">Comprar</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&auto=format&fit=crop&q=60" alt="Sneaker Minimalista">
+                    <h3>Sneaker Urban Camelo</h3>
+                    <p class="description">Couro nobuck macio, solado em caixa alta confortável.</p>
+                    <p class="price">R$ 259,90</p>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho('Sneaker Urban Camelo')">Comprar</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=500&auto=format&fit=crop&q=60" alt="Mocassim de Couro">
+                    <h3>Mocassim Loafer Nobre</h3>
+                    <p class="description">Estilo slip-on casual chique, sem meias, super flexível.</p>
+                    <p class="price">R$ 279,90</p>
+                    <button class="btn-buy" onclick="adicionarAoCarrinho('Mocassim Loafer Nobre')">Comprar</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>Men Clean</h3>
+                <p>Estilo marcante e atemporal com essência minimalista.</p>
+                <p><strong>Telefone:</strong> (81) 99999-9999</p>
+            </div>
+            <div class="footer-dev">
+                <p>Desenvolvido por:</p>
+                <h4>José Neto</h4>
+                <p><strong>Contato:</strong> (83) 99607-9080</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Men Clean. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
